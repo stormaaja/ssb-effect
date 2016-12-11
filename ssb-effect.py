@@ -3,8 +3,10 @@
 from grid import Grid
 import time
 
+GRID_SIZE = 30
+
 initial_time = time.time()
-grid = Grid(30)
+grid = Grid(GRID_SIZE)
 grid.create_new_random_matrix()
 print("Initial matrix:")
 print(grid.to_str())
