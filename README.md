@@ -9,4 +9,4 @@ Just run `ssb-effect.py`. If you'd like to test different grid sizes, change
 
 ## Lincense
 
-[MIT](LICENCSE)
+[MIT](LICENSE)
