@@ -52,7 +52,7 @@ class Grid:
     def get_max_delta(self) -> float:
         return max(self.matrix) - min(self.matrix)
 
-    def calculate_average_grid(self):
+    def calculate_average_grid(self) -> 'Grid':
         new_grid = Grid(self.size)
         for x in range(0, self.size):
             for y in range(0, self.size):
