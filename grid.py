@@ -60,20 +60,6 @@ class Grid:
 
         return new_grid
 
-    def generate_random_matrix(size: float) -> list:
-        matrix = []
-        for x in range(size * size):
-            matrix.append(random.random())
-
-        return matrix
-
-    def generate_zero_matrix(size: float) -> list:
-        matrix = []
-        for x in range(size * size):
-            matrix.append(0.0)
-
-        return matrix
-
     def to_str(self) -> str:
         values_str = ""
         for x in range(0, self.size):
@@ -87,3 +73,17 @@ class Grid:
                 values_str += "\n"
 
         return values_str
+
+    def generate_random_matrix(size: float) -> list:
+        matrix = []
+        for x in range(size * size):
+            matrix.append(random.random())
+
+        return matrix
+
+    def generate_zero_matrix(size: float) -> list:
+        matrix = []
+        for x in range(size * size):
+            matrix.append(0.0)
+
+        return matrix
